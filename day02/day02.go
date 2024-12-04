@@ -107,7 +107,6 @@ func Part2() int {
 		}
 
 		if safe {
-			fmt.Printf("Line %v is safe\n", line)
 			safeCount++
 		}
 	}
@@ -120,5 +119,5 @@ func Solve() {
 	fmt.Printf("Answer: %v\n\n", answer1) // 299
 
 	answer2 := Part2()
-	fmt.Printf("Answer: %v\n\n", answer2)
+	fmt.Printf("Answer: %v\n\n", answer2) // 364
 }
