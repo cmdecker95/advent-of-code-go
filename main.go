@@ -1,6 +1,6 @@
 package main
 
-import today "github.com/cmdecker95/advent-of-code-go/day05"
+import today "github.com/cmdecker95/advent-of-code-go/day06"
 
 func main() {
 	today.Solve()
