@@ -1,12 +1,27 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+	"strings"
+)
+
+var filepath string = "FILEPATH"
+var sample string = "SAMPLE"
 
 func Part1() int {
+	file, _ := os.ReadFile(filepath)
+	text := strings.TrimSpace(string(file))
+	text = sample
+	print(text)
 	return 0
 }
 
 func Part2() int {
+	file, _ := os.ReadFile(filepath)
+	text := strings.TrimSpace(string(file))
+	text = sample
+	print(text)
 	return 0
 }
 
